@@ -206,3 +206,26 @@ form{
 .frm-linha button:hover{
     background: #3c3a3a;
 }
+
+@media  screen and (max-width: 1020px){
+    .conteudo{
+        max-width: 400px;
+    }
+ 
+    .topo input{
+        width: 300px;
+    }
+
+    .btn-acao{
+        width: 50px;
+    }
+
+    .btn-acao-enviar{
+        width: 100px;
+    }
+
+    #janelaEdicao{
+        width: 350px;
+    }
+ 
+}
